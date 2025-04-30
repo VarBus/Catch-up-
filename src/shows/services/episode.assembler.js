@@ -6,6 +6,8 @@ export class EpisodeAssembler {
 
     }
 
+    //el primer data es del axios
+    // donde empieza el [] pones un data
     static toEntitiesFromResponse(response){
         return response.data.map(resource => this.toEntityFromResource(resource));
     }
