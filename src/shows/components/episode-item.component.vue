@@ -41,7 +41,7 @@ export default {
             class="text-primary font-medium hover:underline"
             aria-label="Read more about the episode"
         >
-          Read more
+          {{$t('read-more')}}
         </a>
       </div>
     </template>
